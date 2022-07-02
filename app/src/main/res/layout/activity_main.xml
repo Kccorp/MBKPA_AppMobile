@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lotte_gris"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connectez-vous !"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="10dp"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pseudo"
+        android:layout_marginTop="20dp"
+        android:hint="Nom d'utilisateur"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:background="@color/lotte_gris"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:paddingStart="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_marginTop="20dp"
+        android:hint="Mot de passe"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:background="@color/lotte_gris"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:paddingStart="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/connexion"
+        android:layout_marginTop="20dp"
+        android:text="Connexion"
+        android:textColor="@color/white"
+        android:background="@color/lotte_rose"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginVertical="75dp"
+        />
+
+    <!--progress bar for loading -->
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+
+</LinearLayout>

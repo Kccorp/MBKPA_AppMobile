@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Application Lotte</string>
+
+    <string name="db_user" translatable="false">zi079ph5hsli9dsz</string>
+    <string name="db_pass" translatable="false">uesgcm2e869kdo87</string>
+    <string name="db_name" translatable="false">m6qku2mxgghdq37a</string>
+    <string name="db_host" translatable="false">ilzyz0heng1bygi8.chr7pe7iynqr.eu-west-1.rds.amazonaws.com</string>
+    <string name="db_port" translatable="false">3306</string>
+</resources>

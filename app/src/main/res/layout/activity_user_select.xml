@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lotte_gris">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bonjour utilisateur !"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/twHello"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Signaler une Lottinette"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:padding="25dp"/>
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="3dp"
+            android:layout_weight="0.5"
+            android:text="Arreter votre course"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"/>
+    
+    </LinearLayout>
+
+    <!--progress bar for loading -->
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:text="Deconnexion"
+        android:backgroundTint="@color/lotte_vert"/>
+
+
+</LinearLayout>
